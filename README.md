@@ -55,6 +55,7 @@ Needs: SignalWire account, Cloudflare account, Google AI Studio API key
 These tests confirm that the Cloudflare Worker successfully processed inbound message data, generated a Gemini AI response, and returned the reply in both JSON mode and LaML-compatible XML. <br/>
 ![Success 1.](https://github.com/bHun733/project-signalwire-test/blob/main/postman_success_1.png) <br/>
 ![Success 2.](https://github.com/bHun733/project-signalwire-test/blob/main/postman_success_2.png) <br/>
+![Worker Log showing success.](https://github.com/bHun733/project-signalwire-test/blob/main/worker_log.png) <br/>
 
 ## Key Design Decisions <br/>
 Several choices were made to leverage free-tier services while still demonstrating the concept effectively: <br/>
